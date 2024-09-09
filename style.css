@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+
+body {
+    padding: 0;
+    margin:0;
+    font: normal 20pt arial;
+    
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(2, 27, 91), rgb(61, 54, 87));
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 30pt;
+    font-weight: 300;
+    padding: 40px 0px 0px 50px;
+    margin-bottom: -30px;
+}
+
+h2 {
+    font-size: 100pt;
+    margin-top: 0px;
+    margin-bottom: -60px;
+    padding: 20px 0px 0px 50px;
+}
+
+h3 {
+    font-size: 150pt;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 50px;
+}
+
+p#desc {
+    
+    align-self: flex-end;
+    font-weight: 300;
+    font-size: 15pt;
+    margin: 0px 0px 0px 0px;
+    width: 300px;
+    padding: 20px;
+
+
+}
