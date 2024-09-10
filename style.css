@@ -15,7 +15,7 @@ header {
     display: flex;
     flex-direction: column;
     color: white;
-    background-image: linear-gradient(to bottom, rgb(2, 27, 91), rgb(61, 54, 87));
+    background-image: linear-gradient(to bottom, rgb(2, 27, 91), rgb(91, 81, 126));
     font-family: "SUSE", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
@@ -35,12 +35,25 @@ h2 {
     margin-top: 0px;
     margin-bottom: -60px;
     padding: 20px 0px 0px 50px;
+    text-shadow: rgba(0, 0, 0, 0.401) 0.5rem 0.5rem 0.2rem ;
 }
 
 h3 {
     font-size: 150pt;
     margin: 0px 0px 0px 0px;
-    padding: 20px 0px 0px 50px;
+    padding: 0px 0px 0px 50px;
+    text-shadow: rgba(0, 0, 0, 0.401) 0.5rem 0.5rem 0.2rem ;
+}
+
+div#container {
+    display: flex;
+    align-self: flex-end;
+    
+
+}
+
+div#container > div.logos {
+    justify-content: space-between;
 }
 
 p#desc {
@@ -53,4 +66,14 @@ p#desc {
     padding: 20px;
 
 
+}
+
+section {
+    background: rgb(91, 81, 126);
+    margin: 0px;
+    height: 100hv;
+}
+
+section > p {
+    margin: 0px;
 }
